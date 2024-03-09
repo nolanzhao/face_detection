@@ -13,7 +13,7 @@ REFRESH_KNOWN_FACE = False
 SOURCE_VIDEO = "./source/VID_20240131_181322.mp4"  # 输入视频
 KNOWN_FACES_DIR = "./known_pic"
 FONT_PATH = "./fonts/Noto_Sans_SC/static/NotoSansSC-Regular.ttf"
-OUTPUT_PATH = "output_video.mp4" # 输出视频
+OUTPUT_PATH = "result/output_video.mp4" # 输出视频
 SKIP_FRAMES = 100
 
 # 设置字体
