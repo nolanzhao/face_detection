@@ -1,12 +1,8 @@
 import os
 import cv2
-import pandas as pd
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 from facenet_pytorch import MTCNN, InceptionResnetV1
-import torch
-from torchvision import transforms
-from deepface import DeepFace
 import pickle
 
 REFRESH_KNOWN_FACE = False
